@@ -1,0 +1,5 @@
+---
+project_type: :script
+organization_id: 0
+extension_point_type: discount
+script_name: discount-0831

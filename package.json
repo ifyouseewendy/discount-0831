@@ -1,0 +1,19 @@
+{
+  "name": "discount-0831",
+  "version": "1.0.0",
+  "devDependencies": {
+    "@shopify/scripts-sdk-as": "^6.0.0",
+    "@shopify/scripts-toolchain-as": "^1.1.0",
+    "@shopify/extension-point-as-discount": "^0.2.10",
+    "@as-pect/cli": "4.0.0",
+    "as-wasi": "^0.2.0",
+    "assemblyscript": "^0.12.0"
+  },
+  "scripts": {
+    "test": "asp --config test/as-pect.config.js --summary --verbose",
+    "asbuild": "npx --no-install shopify-scripts-build --src=./src/script.ts --binary=build/script.wasm -- --lib=./node_modules --optimize --use Date="
+  },
+  "engines": {
+    "node": ">=14.5"
+  }
+}

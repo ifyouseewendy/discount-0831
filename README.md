@@ -2,7 +2,7 @@ This repo is to demo the ASLS (AssemblyScript Language Server) usage with our ap
 
 1\. `shopify create script`
 
-2\. Install [ASLS](https://github.com/saulecabrera/asls) and [VSCode extension](https://marketplace.visualstudio.com/items?itemName=saulecabrera.asls)
+2\. Install [ASLS](https://github.com/saulecabrera/asls) and [VSCode extension](https://marketplace.visualstudio.com/items?itemName=saulecabrera.asls) and `npm install`
 
 3\. Disable Typescript checking
 
